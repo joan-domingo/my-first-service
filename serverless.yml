@@ -15,6 +15,9 @@ service: my-first-service
 app: my-first-app
 org: joands
 
+plugins:
+  - serverless-plugin-typescript
+
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
 # frameworkVersion: "=X.X.X"
